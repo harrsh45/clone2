@@ -82,9 +82,9 @@ body{
 
 .songlist ul li{
     display: flex;
-    gap:15px;
+    gap:5px;
     /* font-size: 10px;; */
-   cursor:pointer;
+    cursor:pointer;
     padding:12px 12px;
     margin:12px;
     /* width:35vh; */
@@ -98,8 +98,13 @@ body{
 }
 .info{
     display:flex;
+    width:24vw;
+    
     gap:10px;
     
+}
+.info .name{
+    width: 10vw;
 }
 
 .songlist{
@@ -167,6 +172,10 @@ list-style-type:decimal ;
 
 .right .nav .signup .signupp:hover{
     color:white;
+    font-size: 1.1rem;
+}
+.right .nav .signup .login:hover{
+    color:#939393;
     font-size: 1.1rem;
 }
 
@@ -258,6 +267,7 @@ list-style-type:decimal ;
     bottom:30px;
     height:70px;
     padding:0px 12px;
+    z-index: 1;
     width:70vw;
     background-color:  #252525;
 }
